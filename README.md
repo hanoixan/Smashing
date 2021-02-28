@@ -49,7 +49,7 @@ Smashing also manages the animation of visibility between the original smashee m
 
 ## Changes
 
-#### v0.1.0
+#### v0.1
 
 - Initial commit, allowing simple smashing of a mesh object by another mesh object.
 
