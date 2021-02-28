@@ -39,8 +39,8 @@ Smashing also manages the animation of visibility between the original smashee m
 | Group | Property | Description |
 | --- | --- | --- |
 | *Shockwave* |||
-|| Shock Speed** | This is the speed (units/s) that pieces will be considered "loose". Set this slower to create an object that falls apart over time. |
-|| Shock Duration** | This is how long (seconds) we allow the shockwave to propagate through the object. |
+|| **Shock Speed** | This is the speed (units/s) that pieces will be considered "loose". Set this slower to create an object that falls apart over time. |
+|| **Shock Duration** | This is how long (seconds) we allow the shockwave to propagate through the object. |
 | *Shatter Pattern* |||
 || **Source Limit** | Limit the number of inputs in the underlying Cell Fracture. |
 || **Crack Gap** | The gap in between the edges of the underlying Cell Fracture. |
