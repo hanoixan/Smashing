@@ -47,6 +47,12 @@ Smashing also manages the animation of visibility between the original smashee m
 | *Behavior* |||
 || **Detect Disconnected Pieces** | This keeps objects from hanging in the air when their bottom gets knocked out, at the expense of taking longer to compute. It creates a simple internal connection graph of what pieces are connected to the ground. If an intermediary piece is knocked out, the dependent chain of pieces will fall. |
 
+## Changes
+
+#### v0.1.0
+
+- Initial commit, allowing simple smashing of a mesh object by another mesh object.
+
 ## Future Work
 
 * Provide a popup if the Cell Fracture addon is not installed and enabled. This is a common issue with new installations.
