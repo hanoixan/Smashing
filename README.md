@@ -26,6 +26,8 @@ Once installed, Smashing can be invoked as follows:
 
 Smashing will then compute the point in time at which the *smasher* collides with the *smashee*, by testing whether any of their polygons intersect each other.
 
+> Warning: Be conscious of rigid body limitations, and what Rigid Body Types you use in the simulation. For example, if your created fragments need to collide against a surrounding static concave surface, you shouldn't set that surface to be a Convex Hull, or the fragments will explode out of it. The safest type to use is Mesh, and then optimize with more efficient types once that works.
+
 > Warning: because they must intersect faces, if the animation is so fast that the smasher is inside the smashee without intersecting, it will not register as a hit.
 
 > Tip: Use an invisible proxy object as the smasher, so you can guarantee a hit the frame before the visibly smashing object actually collides with it.
