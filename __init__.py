@@ -362,18 +362,6 @@ class SmashingMain(Operator):
         objects_context = context.selected_editable_objects
         kw_copy = kw.copy()
 
-
-        '''
-            Todo:
-                Easy to use interface for creating smash patterns
-                    Curve that lets you edit fragment size as distance from hit point
-                    Aspect ratio of smash pattern in space of hit proxy
-                    Spokes
-                    Levels
-                    Curve that lets you edit randomness of crack distribution as distance from hit point                    
-                    
-        '''
-
         sourceLimit = kw_copy.pop("source_limit")
         shockSpeed = kw_copy.pop("shock_speed")
         shockDuration = kw_copy.pop("shock_duration")
