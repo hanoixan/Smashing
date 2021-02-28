@@ -12,7 +12,9 @@ Smashing is compatible with Blender 2.91.
 
 > Requirement: Smashing makes use of the Cell Fracture addon. You will also need to have it installed and enabled.
 
-To use, place the source files of this project into a .zip, and install this archive as an addon in Blender.
+Download the latest release, and install the .zip as a normal Blender addon.
+
+To manually install from source, place the files under /src into a .zip, and install this archive as an addon in Blender.
 
 ## Usage
 
