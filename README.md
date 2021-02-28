@@ -58,6 +58,8 @@ Smashing also manages the animation of visibility between the original smashee m
 ## Future Work
 
 * Resolve issues.
+* Move addon source into src/ folder.
+* Provide example .blend scenes and tutorial video.
 * Provide a popup if the Cell Fracture addon is not installed and enabled. This is a common issue with new installations.
 * Create an intuitive interface for designing the smashing pattern. Should be better than using the grease pencil alone, and reusable.
 
