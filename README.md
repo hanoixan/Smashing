@@ -6,6 +6,8 @@ Smashing: A rigid body destruction addon for Blender
 
 This addon presents an easy to use interface for creating rigid body collision effects. 
 
+> This plugin is in alpha. Want it to make it better? Me too! Download and try it, and send me feedback.
+
 ## Installation
 
 Smashing is compatible with Blender 2.91.
