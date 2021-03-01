@@ -18,6 +18,12 @@ Download the latest release, and install the .zip as a normal Blender addon.
 
 To manually install from source, place the files under /src into a .zip, and install this archive as an addon in Blender.
 
+## Video Tutorials
+
+Here's [a very short video tutorial I made](https://youtu.be/PhRC4-1EfI0) on using Smashing.
+
+Too short? If you make a good tutorial, I'll post it here and give you credit.
+
 ## Usage
 
 Once installed, Smashing can be invoked as follows:
@@ -62,8 +68,7 @@ Smashing also manages the animation of visibility between the original smashee m
 ## Future Work
 
 * Resolve issues.
-* Move addon source into src/ folder.
-* Provide example .blend scenes and tutorial video.
+* Provide example .blend scene.
 * Provide a popup if the Cell Fracture addon is not installed and enabled. This is a common issue with new installations.
 * Create an intuitive interface for designing the smashing pattern. Should be better than using the grease pencil alone, and reusable.
 
